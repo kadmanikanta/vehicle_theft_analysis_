@@ -1,4 +1,4 @@
-# Stolen Vehicle Analysis Dashboard
+# Stolen Vehicles Analysis Dashboard
 
 ## Overview
 
@@ -6,7 +6,7 @@ This project uses SQL for data analysis and Tableau for visualization to identif
 
 data, this project aims to uncover key insights that can help inform crime prevention strategies. The dashboard provides an interactive experience for exploring theft 
  
-trends by location, time, and vehicle characteristics, helping stakeholders make data-driven decisions.
+trends by location, time, and vehicle characteristics, assisting stakeholders to make data-driven decisions.
 
 ## Database and Tables
 
@@ -15,7 +15,7 @@ trends by location, time, and vehicle characteristics, helping stakeholders make
 **Tables**:
 - **`locations`**: Stores information about regions, countries, population, and density.
 
-- **`make_details`**: Contains vehicle make and type information.
+- **`make_details`**: Contains information on vehicle make and type.
 
 - **`stolen_vehicles`**: Records vehicle theft data, including date, location, vehicle type, and color.
 
@@ -29,7 +29,7 @@ trends by location, time, and vehicle characteristics, helping stakeholders make
 
   - **Temporal Analysis**: Identify theft trends by year, month, and day of the week.
   - **Spatial Analysis**: Examine regions with high theft rates relative to population.
-  - **Vehicle Characteristics**: Identify which vehicle makes, models, and colors are stolen most frequently.
+  - **Vehicle Characteristics**: Identify which vehicle makes, models, and colors are frequently stolen.
   - **Calculated Insights**: Compute theft density, theft rate per population, and vehicle age at theft.
 
 ### 2. Tableau Dashboard Development
@@ -64,7 +64,7 @@ trends by location, time, and vehicle characteristics, helping stakeholders make
 
 ### 4. Tableau Dashboard Structure
 
-- **Visuals**: Charts on temporal patterns, geographic hotspots, vehicle make analysis, and vehicle age distribution.
+- **Visuals**: Charts on temporal patterns, geographic hotspots, vehicle make analysis and vehicle age distribution.
 
 - **Filters**: Allow exploration of data by region, make, vehicle type, color, and more.
 
